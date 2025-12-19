@@ -1,0 +1,47 @@
+{
+    "best_model": "Gradient Boosting (Regularized)",
+    "features_used": [
+        "Category_Encoded",
+        "Book_Age",
+        "google_rating_clean",
+        "google_page_count_clean",
+        "Quality_Score",
+        "Month_Sin",
+        "Month_Cos",
+        "Is_New_Book",
+        "Is_Classic",
+        "Category_Rating_Interaction",
+        "Price_per_Page",
+        "Quantity"
+    ],
+    "has_data_leakage": false,
+    "models": {
+        "Ridge Regression": {
+            "R2_Train": -9437.822601236365,
+            "R2_Test": 0.041296820652757193,
+            "CV_Mean": 0.6963163844751958,
+            "CV_Std": 0.11534376823970702,
+            "Overfitting_Gap": -9437.863898057018,
+            "MAE": 86.0681575410777,
+            "RMSE": 264.73789937270914
+        },
+        "Random Forest (Regularized)": {
+            "R2_Train": 0.9393449988439462,
+            "R2_Test": 0.9317011995686383,
+            "CV_Mean": 0.9630426542903872,
+            "CV_Std": 0.0020480186739130347,
+            "Overfitting_Gap": 0.007643799275307894,
+            "MAE": 32.99347067958293,
+            "RMSE": 70.66112908831317
+        },
+        "Gradient Boosting (Regularized)": {
+            "R2_Train": 0.9952841750664987,
+            "R2_Test": 0.9945165009597019,
+            "CV_Mean": 0.9902497638140826,
+            "CV_Std": 0.00048546789925815465,
+            "Overfitting_Gap": 0.0007676741067967896,
+            "MAE": 10.8767078176317,
+            "RMSE": 20.021790860954578
+        }
+    }
+}

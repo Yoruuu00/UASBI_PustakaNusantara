@@ -1,0 +1,56 @@
+{
+    "best_model": "Gradient Boosting",
+    "features_used": [
+        "Category_Encoded",
+        "Category_Quality",
+        "Category_Age",
+        "google_page_count_clean",
+        "Page_Count_Log",
+        "Book_Length_Category",
+        "google_rating_clean",
+        "Rating_Tier",
+        "Quality_Score",
+        "Book_Age",
+        "Book_Age_Log",
+        "Is_New_Release",
+        "Is_Recent",
+        "Is_Classic",
+        "Month_Sin",
+        "Month_Cos",
+        "Quarter",
+        "Quantity",
+        "Quantity_Log",
+        "Is_Bulk_Order"
+    ],
+    "num_features": 20,
+    "has_item_price": false,
+    "models": {
+        "Ridge Regression": {
+            "R2_Train": 0.3115546831407737,
+            "R2_Test": 0.3129458796946274,
+            "CV_Mean": 0.36152062380575234,
+            "CV_Std": 0.02321751797910072,
+            "Overfitting_Gap": -0.0013911965538536686,
+            "MAE": 145.49780079167198,
+            "RMSE": 224.1142693496988
+        },
+        "Random Forest": {
+            "R2_Train": 0.5728253242619652,
+            "R2_Test": 0.5787205154972586,
+            "CV_Mean": 0.6173404451381923,
+            "CV_Std": 0.021394157618249917,
+            "Overfitting_Gap": -0.005895191235293362,
+            "MAE": 88.5022048826675,
+            "RMSE": 175.49275419766033
+        },
+        "Gradient Boosting": {
+            "R2_Train": 0.599354904742618,
+            "R2_Test": 0.5940428819527261,
+            "CV_Mean": 0.6299819116209588,
+            "CV_Std": 0.020665816819778943,
+            "Overfitting_Gap": 0.005312022789891846,
+            "MAE": 85.39533273460842,
+            "RMSE": 172.27176967788984
+        }
+    }
+}
