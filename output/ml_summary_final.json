@@ -1,0 +1,24 @@
+{
+    "model": "Gradient Boosting Regressor",
+    "category_column_used": "Category",
+    "features_used": [
+        "Category_Encoded",
+        "google_rating_clean",
+        "google_page_count_clean",
+        "Book_Age",
+        "Quantity",
+        "Quantity_Log",
+        "Is_Bulk_Order",
+        "Month_Sin",
+        "Month_Cos"
+    ],
+    "r2_test": 0.5852959392456829,
+    "mae": 86.15144885007356,
+    "rmse": 174.1178030220328,
+    "cv_r2_mean": 0.6291038398535738,
+    "cv_r2_std": 0.020753262729492742,
+    "data_shape_after_dropna": [
+        6928,
+        22
+    ]
+}

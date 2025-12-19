@@ -1,0 +1,11 @@
+Column_Name,Data_Type,Non_Null_Count,Null_Count,Null_Percentage
+Purchase_Date,object,3480,0,0.0
+Customer_ID,object,3480,0,0.0
+Title,object,3480,0,0.0
+Quantity,int64,3480,0,0.0
+Item_Price,float64,3480,0,0.0
+Total_Amount,float64,3480,0,0.0
+Profit,float64,3480,0,0.0
+Category,object,3480,0,0.0
+Ship_City,object,3480,0,0.0
+Ship_State,object,3480,0,0.0

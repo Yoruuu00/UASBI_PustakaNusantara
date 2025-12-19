@@ -1,0 +1,39 @@
+Column,Type,Non_Null,Unique
+Purchase-date,object,3480,3373
+Customer ID,object,3480,2768
+Title,object,3480,251
+Quantity,int64,3480,1
+Item Price,float64,3480,225
+Total_Amount,float64,3480,423
+Profit (INR),float64,3480,262
+Category_OLTP,object,3480,4
+Ship-City,object,3480,931
+Ship-State,object,3480,75
+api_found,bool,3480,2
+api_title,object,3480,70
+api_author,object,3480,59
+api_authors_all,object,3480,62
+api_first_publish_year,int64,3480,41
+api_isbn,int64,3480,1
+api_isbn_all,int64,3480,1
+api_publisher,object,3480,2
+api_publishers_all,object,3480,2
+api_language,object,3480,2
+api_number_of_pages,int64,3480,1
+api_subject,object,3480,1
+api_edition_count,int64,3480,18
+api_has_fulltext,bool,3480,2
+api_search_url,object,3480,70
+Book_Age,int64,3480,41
+Has_API_Data,int32,3480,2
+Category_OLTP_Encoded,int32,3480,4
+api_publisher_Encoded,int32,3480,2
+api_publishers_all_Encoded,int32,3480,2
+api_language_Encoded,int32,3480,2
+api_subject_Encoded,int32,3480,1
+Quantity_Scaled,float64,3480,1
+Total_Amount_Scaled,float64,3480,423
+api_first_publish_year_Scaled,float64,3480,41
+api_number_of_pages_Scaled,float64,3480,1
+api_edition_count_Scaled,float64,3480,18
+Book_Age_Scaled,float64,3480,41
